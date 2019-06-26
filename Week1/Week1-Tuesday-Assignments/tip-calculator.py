@@ -1,5 +1,5 @@
 #Defining the function to calculate tips from the total amount (total) and the tip percentage(tip_perc)
-def tip_calculator(total, tip_perc):
+def tip_calculator(total, tip_perc = "15"):
     tip_total = round((float(total) * float(tip_perc) / 100), 2) 
     return print(f"Tip amount: ${tip_total}")
 
