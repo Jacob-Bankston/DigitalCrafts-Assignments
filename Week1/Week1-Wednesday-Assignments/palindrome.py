@@ -29,7 +29,7 @@ def check_if_palindrome(string, reversed_string):
 def palindrome_test_statement(tested_strings, string, reversed_string):
     if tested_strings == True:
         result_statement = "is a palindrome!"
-    elif tested_strings == False:
+    else:
         result_statement = "is not a palindrome... Sorry!"
     print(f'Results! Your string, "{string}" reverses to the string "{reversed_string}", which {result_statement}')
 
