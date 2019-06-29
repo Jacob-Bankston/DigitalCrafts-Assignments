@@ -95,6 +95,5 @@ def pyramid_generator(n):
         j -= 1
 
 
-pyramid_generator(9)
-
-        
+user_selected_number = input("Select a number for how many rows you would like in the pyramid: ")
+pyramid_generator(int(user_selected_number) + 1)

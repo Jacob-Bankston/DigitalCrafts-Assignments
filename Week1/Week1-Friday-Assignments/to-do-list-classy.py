@@ -8,7 +8,7 @@ class Task():
 
 def add_task_input():
     title_input = input("Please select a Title for the Task: ")
-    while true:
+    while True:
         priority_input = input("Please select a Priority Level for the Task [High, Medium, Low]")
         if priority_input == ("l" or "L" or "low" or "Low" or "LOW"):
             priority = "LOW"
