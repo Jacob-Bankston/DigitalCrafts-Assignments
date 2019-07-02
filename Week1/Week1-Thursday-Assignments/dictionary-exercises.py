@@ -80,9 +80,9 @@ def top3():
     big_word1 = ""
     big_word2 = ""
     big_word3 = ""
-    for pair in dictionary_to_search.items():
-        words.append(pair[0])
-        numbers.append(pair[1])
+    for key, value in dictionary_to_search.items():
+        words.append(key)
+        numbers.append(value)
     for index in range(len(numbers)):
         if big_num1 < numbers[index]:
             big_num1 = numbers[index]
